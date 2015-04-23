@@ -1,0 +1,21 @@
+#banner {
+	padding: 20px;
+	background-color: #33ADFF;
+	color: white;
+	border-radius: 20px;
+}
+footer {
+	background-color: #33ADFF;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+}
+.menu {
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+li {
+	display: inline;
+
+}
