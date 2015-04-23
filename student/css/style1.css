@@ -45,16 +45,16 @@ li {
     padding:20px;
     margin: auto;
     text-align: center;
-    width:250px;
+    width:220px;
     
 }
 
-tr, td{
+#tableblock tr,#tableblock td, #tableInternational tr,#tableInternational td{
     border: solid 2px;
     border-color:black;
 }
 
-table{
+#tableblock table{
     border: solid 2px;
     border-color:black;
 
