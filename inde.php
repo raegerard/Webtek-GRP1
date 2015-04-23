@@ -8,17 +8,6 @@
 		<title>Login</title>
 	</head>
 
-	<body>
 
-		<header>
-			
-		</header>
-
-		
-
-		<footer>
-		</footer>
-
-	</body>
 
 </html>
