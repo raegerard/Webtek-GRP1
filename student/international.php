@@ -4,6 +4,8 @@
     <head> <title>Enroll to University</title></head>
     
     <body>
+        <?php include 'header.html'?>
+        <?php include 'menu.html'?>
         
         <div id="maincontent">
         
@@ -37,6 +39,6 @@
         </div>
     
         
-        
+        <?php include 'footer.html'?>
     </body>
 </html>

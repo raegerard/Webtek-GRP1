@@ -4,16 +4,18 @@
     <head> <title>"Enroll to University"</title></head>
     
     <body>
+        <?php include 'header.html'?>
+        <?php include 'menu.html'?>
         
         <div id="maincontent">
         
             <div id="content">
-                <a href="block.html"><img class="image"src="img/schedule.png">Block</a>
-                <a href="international.html"><img class="image"src="img/schedule.png">International</a>
+                <a href="block.php"><img class="image"src="img/schedule.png">Block</a>
+                <a href="international.php"><img class="image"src="img/schedule.png">International</a>
             </div>
             
         </div>
         
-        
+        <?php include 'footer.html'?>
     </body>
 </html>

@@ -5,13 +5,16 @@
 </head>
 <body>
     <?php include 'header.html'?>
+    <div id="menubar">
+      <?php include 'menu.html'?>
+    </div>
     <div id="login">
     <form id="formlogin">
         <label>Username</label>
-        <input type="text" /><br>
+        <input name ="studusername" id="studusername"type="text" /><br>
         <label>Password</label>
-        <input type="password" /><br>
-        <button type="button"><a href="student/studenthome.html">Login</a></button>
+        <input name="studpassword" id="studpassword"type="password" /><br>
+        <button type="button" id="btnLogin" name="btnlogin"><a href="student/studenthome.php">Login</a></button>
     </form>
     </div>   
     

@@ -14,16 +14,39 @@ body{
 #content{
     
     margin:auto;
-    background: grey;
+    /*background: grey;*/
     width: 90%;
     height: auto;
+    margin-bottom: 2in;
 
+}
+
+#banner {
+        
+  width: 400px;
+  padding: 20px;
+  background-color: #33ADFF;
+  opacity: 0.4;
+  box-shadow: 9px 7px 5px #000;
+  position: absolute;
+  left: 67px;
+  top: 191px;
+  color: white;
+  border-radius: 20px;
 }
 
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0; 
+}
+
+.menumain {
+	text-align: center;
+	position: relative;
+	top: 5px;
+        margin-bottom: 4in;
+        margin-top: 2in;
 }
 
 .divcontent li {
@@ -37,14 +60,14 @@ body{
     margin: auto;
     height: 70%;
     padding-top:50px;
-    
+    margin-top: 1in;
 }
 
 .image{
     padding:20px;
     margin: auto;
     text-align: center;
-    width:220px;
+    width:300px;
     
 }
 
@@ -59,18 +82,131 @@ body{
 
 }
 
-#login{
-    position: absolute;
-    right:0px;
-    padding:30px;
-}
+
 /*header*/
 .mainheader{
-    background: url("../img/banner.jpg");
+    background: url("../img/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
     height: 380px;
+}
+
+#logout{
+    position:absolute;
+    right:13px;
 }
 /*footer*/
 #footer li{
     display:inline-block;
+}
+
+.mainfooter{
+    background: #203357;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*login*/
+#studusername, #studpassword{
+    text-align: left;
+    width:200px;
+}
+#login{
+    width:350px;
+    padding:30px;
+    border: solid #203357;
+    box-shadow: 10px 10px 5px #888888;
+    margin:auto;
+    margin-bottom: 3in;
+    margin-top: 2in;
+}
+
+/*menu*/
+.menuhome{
+    width:52%;
+    margin: auto;
+}
+
+
+.menu{
+    margin:auto;
+    width: 70%;
     
+}
+
+#crumbs ul li a {
+	display: block;
+	float: left;
+	height: 50px;
+	background: #203357;
+	text-align: center;
+	padding: 30px 40px 0 40px;
+	position: relative;
+	margin: 0 10px 0 0; 
+	padding: 30px 40px 0 80px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#crumbs ul li a:after {
+	content: "";  
+	border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-left: 40px solid #203357;
+	position: absolute; right: -40px; top: 0;
+        z-index: 1;
+}
+
+#crumbs ul li a:before {
+	content: "";  
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid white;
+	position: absolute; left: 0; top: 0;
+}
+
+
+#crumbs ul li:first-child a {
+	border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+}
+#crumbs ul li:first-child a:before {
+	display: none; 
+}
+
+#crumbs ul li:last-child a {
+	padding-right: 80px;
+	border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+}
+#crumbs ul li:last-child a:after {
+	display: none; 
+}
+
+#crumbs ul li a:hover {
+        color:black;
+	background: #eeff32;
+}
+#crumbs ul li a:hover:after {
+        color:black;
+	border-left-color: #eeff32;
+}
+#crumbs ul li {
+display: inline;
+}
+
+#crumbs ul
+{
+list-style:none;
+}
+
+
+#menubar{
+    background: black;
+    width:100%;
+    margin: auto;
 }
