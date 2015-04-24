@@ -25,7 +25,7 @@
                     <div class="menumain">
 			<li id="enroll"><a href="enroll.php">
                                 <input type="image" class="image"src="img/enroll.png" value="Enroll"alt="Enroll" >Enroll</a></li>
-			<li id="Schedule"><a href="studeschedule.php">
+			<li id="Schedule"><a href="studschedule.php">
 				<input type="image" class="image"src="img/schedule.png" value="Schedule"alt="Schedule" >Schedule</a></li>
 			<li id="Notifications"><a href="studnotification.php">
 				<input type="image" class="image"src="img/notifications.png" value="Notifications" alt="Notifications">Notification</a></li>
