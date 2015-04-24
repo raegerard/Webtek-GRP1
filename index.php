@@ -5,7 +5,7 @@
 </head>
 <body>
     <?php include 'header.html'?>
-    <div>
+    <div id="login">
     <form id="formlogin">
         <label>Username</label>
         <input type="text" /><br>

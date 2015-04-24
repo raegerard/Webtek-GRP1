@@ -5,26 +5,9 @@ Student style
 /* 
     Created on : Apr 23, 2015, 10:01:59 AM
 */
-//header
-#header{
-        height:100%;
-	background: green;
-	/* margin-top:53px; */
-	background-repeat:no-repeat;
-	width:100%;
-}
 
-//footer
-#mainfooter{
-    background: black;
-}
-
-
-
-
-//styles
 body{
-        background: url("../img/banner.jpg");
+        
         text-decoration: none;
         color:black;
 }
@@ -43,9 +26,8 @@ body{
     padding: 0; 
 }
 
-li {
+.divcontent li {
     display: inline;
-    
 }
 
 #divcontent{
@@ -77,3 +59,18 @@ li {
 
 }
 
+#login{
+    position: absolute;
+    right:0px;
+    padding:30px;
+}
+/*header*/
+.mainheader{
+    background: url("../img/banner.jpg");
+    height: 380px;
+}
+/*footer*/
+#footer li{
+    display:inline-block;
+    
+}
