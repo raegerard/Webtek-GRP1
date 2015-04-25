@@ -7,7 +7,7 @@
     background: url("../img/banner1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    height: 380px;
+    height: 300px;
 }
 
 #banner {
@@ -23,16 +23,7 @@
   color: white;
   border-radius: 20px;
 }
-footer {
-    background: #922c2c;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    color:white;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-}
+
 .menumain {
 	text-align: center;
 	position: relative;
@@ -123,4 +114,28 @@ display: inline;
 #crumbs ul
 {
 list-style:none;
+}
+
+/*footer*/
+footer {
+    background: #922c2c;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 110%;
+}
+#footer a:link {
+  color: white;
+  text-decoration: none;
+}
+#footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #f2b634;
+
 }
