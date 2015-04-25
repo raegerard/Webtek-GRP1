@@ -23,7 +23,7 @@
                             <td>Units</td></tr>
                     </table>
                         
-                    <button type="button" >Enroll</button>
+                    <button id="btnEnroll" name="btnEnroll"type="button" >Enroll</button>
                     </form>
                 </div>
             </div>
