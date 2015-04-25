@@ -71,12 +71,12 @@ body{
     
 }
 
-#tableblock tr,#tableblock td, #tableInternational tr,#tableInternational td{
+#tablenotification tr,#tablenotification td,#tableblock tr,#tableblock td, #tableInternational tr,#tableInternational td{
     border: solid 2px;
     border-color:black;
 }
 
-#tableblock table{
+#tableblock table, #tablenotification table{
     border: solid 2px;
     border-color:black;
 

@@ -4,9 +4,18 @@
 <link href="student/css/style1.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <?php include 'header.html'?>
+    <header class="mainheader">
+	<div id="header">
+	</div>
+    </header>
     <div id="menubar">
-      <?php include 'menu.html'?>
+      <div id="crumbs" class="menuhome">
+	<ul>
+		<li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About Us</a></li>
+		<li><a href="contact.php">Contact Us</a></li>
+	</ul>
+</div>
     </div>
     <div id="login">
     <form id="formlogin">
@@ -18,7 +27,18 @@
     </form>
     </div>   
     
-    <?php include 'footer.html'?>
+     <footer class="mainfooter">
+	<div id="mainfooter">
+	<nav>
+            <ul id="footer">
+                <li class="active"><a href="index.php">Home</a></li>
+                <li ><a href="about.html">About</a></li>
+                <li ><a href="contact.html">Contact</a></li>
+            </ul>
+	</nav>
+            <p>Copyright &copy; 2015 Webtek Final Project</a></p>
+	</div>
+    </footer>
 </body>
 </html>
 <a href="footer.html"></a>

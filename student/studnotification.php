@@ -12,12 +12,12 @@
             <div id="content">
                 <div id="divcontent">
                     
-                    <div id="divnotification">
+                    <table id="tableNotification">
+                        <tr><td>Date</td>
+                            <td>Title</td>
+                            <td>Approve</td>
                         
-                        div for notification updates
-                        
-                    </div>
-
+                    </table>
                 </div>
             </div>
             
