@@ -20,9 +20,22 @@
             <?php include 'menu.html'?>
         
             <div id="content">
-
-		<div class="divcontent">
+                <div id="divcontent">
+                    <form name="blockform" id="blockform">
+                    <p id="schedule">Current schedule:</p>
+                        
+                    </select><br>
                     
+                    <table id="tableschedule">
+                        <tr><td>Time</td>
+                            <td>Code</td>
+                            <td>Course No.</td>
+                            <td>Description</td>
+                            <td>Units</td></tr>
+                    </table>
+                        
+                    <button id="btnAddChange" name="btnAddChange"type="button" >Add/Change</button>
+                    </form>
                 </div>
             </div>
             </div>
