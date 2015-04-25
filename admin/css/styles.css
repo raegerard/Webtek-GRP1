@@ -54,8 +54,9 @@ li {
 
 /*menu*/
 .menu{
-    margin:auto;
-    width: 70%;
+    margin: auto;
+    position: absolute;
+    left: 165px;
     
 }
 
