@@ -128,14 +128,16 @@ body{
 
 /*menu*/
 .menuhome{
-    width:52%;
     margin: auto;
+    POSITION: absolute;
+    left: 274px;
 }
 
 
 .menu{
     margin:auto;
-    width: 70%;
+    position: absolute;
+    left: 152px;
     
 }
 
