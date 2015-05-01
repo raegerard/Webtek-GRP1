@@ -11,8 +11,8 @@
     <div id="menubar">
       <div id="crumbs" class="menuhome">
 	<ul>
-		<li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About Us</a></li>
+		<li class="active"><a href="index.php">Home</a></li>
+         <li><a href="about.php">About Us</a></li>
 		<li><a href="contact.php">Contact Us</a></li>
 	</ul>
 </div>
@@ -32,8 +32,8 @@
 	<nav>
             <ul id="footer">
                 <li class="active"><a href="index.php">Home</a></li>
-                <li ><a href="about.html">About</a></li>
-                <li ><a href="contact.html">Contact</a></li>
+                <li ><a href="about.php">About</a></li>
+                <li ><a href="contact.php">Contact</a></li>
             </ul>
 	</nav>
             <p>Copyright &copy; 2015 Webtek Final Project</a></p>
