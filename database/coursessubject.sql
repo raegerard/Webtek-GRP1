@@ -3,8 +3,8 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2015 at 10:50 AM
--- Server version: 5.6.17
+-- Generation Time: May 01, 2015 at 07:26 AM
+-- Server version: 5.6.24-log
 -- PHP Version: 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -19,8 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `coursessubject`
 --
-CREATE DATABASE `coursessubject` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `coursessubject`;
+
 -- --------------------------------------------------------
 
 --
@@ -79,6 +78,82 @@ INSERT INTO `1styearscis2ndsem` (`courseNo`, `descriptiveTitle`, `totalUnits`) V
 ('P E 2', 'RHYTHMIC ACTIVITIES', 2),
 ('PHILOS 1', 'LOGIC', 3),
 ('THEO 2', 'BELIEVING UNTO DISCIPLESHIP', 3);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `1styearscissummer`
+--
+
+CREATE TABLE IF NOT EXISTS `1styearscissummer` (
+  `courseNo` varchar(20) NOT NULL,
+  `descriptiveTitle` varchar(60) NOT NULL,
+  `totalUnits` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `1styearscissummer`
+--
+
+INSERT INTO `1styearscissummer` (`courseNo`, `descriptiveTitle`, `totalUnits`) VALUES
+('IT 131', 'COMPUTER ARCHITECTURE', 2),
+('IT 131L', 'COMPUTER ARCHITECTURE', 1),
+('IT 132', 'INFORMATION SYSTEM FUNDAMENTALS', 3),
+('NSTP-CWTS 1', 'FOUNDATIONS OF SERVICE', 3);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `2ndyearscis1stsem`
+--
+
+CREATE TABLE IF NOT EXISTS `2ndyearscis1stsem` (
+  `courseNo` varchar(20) NOT NULL,
+  `descriptiveTitle` varchar(60) NOT NULL,
+  `totalUnits` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `2ndyearscis1stsem`
+--
+
+INSERT INTO `2ndyearscis1stsem` (`courseNo`, `descriptiveTitle`, `totalUnits`) VALUES
+('ENGL 4A', 'EFFECTIVE COMMUNICATION WITH PHONETICS', 3),
+('HIST 2', 'LIFE AND WORKS OF DR JOSE RIZAL', 3),
+('IT 211', 'DATA STRUCTURES WITH ALGORITHM DEVELOPMENT', 2),
+('IT 211L', 'DATA STRUCTURES WITH ALGORITHM DEVELOPMENT', 1),
+('MATH 4', 'MATHEMATICAL ANALYSIS FOR BUSINESS', 3),
+('P E 3', 'INDIVIDUAL/DUAL SPORTS/GAMES', 2),
+('PHILOS 2', 'ETHICS', 3),
+('SOCIO 1', 'SOCIETY AND CULTURE WITH FAMILY PLANNING', 3),
+('THEO 3', 'DISCIPLESHIP IN COMMUNITY', 3),;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `2ndyearscis2ndsem`
+--
+
+CREATE TABLE IF NOT EXISTS `2ndyearscis2ndsem` (
+  `courseNo` varchar(20) NOT NULL,
+  `descriptiveTitle` varchar(60) NOT NULL,
+  `totalUnits` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `2ndyearscis2ndsem`
+--
+
+INSERT INTO `2ndyearscis2ndsem` (`courseNo`, `descriptiveTitle`, `totalUnits`) VALUES
+('ECON 1', 'BASIC ECONOMICS WITH TAXATION AND AGRARIAN REFORM', 3),
+('ENGL 7', 'TECHNICAL WRITING', 3),
+('IT 122', 'PROGRAMMING FUNDAMENTALS II', 2),
+('IT 122L', 'PROGRAMMING FUNDAMENTALS II', 1),
+('P E 4', 'TEAM SPORTS/GAMES', 2),
+('PHYS 1A', 'COLLEGE PHYSICS 1', 3),
+('PHYS 1AL', 'COLLEGE PHYSICS 1', 1),
+('PSYCHO 1', 'GENERAL PSYCHOLOGY WITH DRUG PREVENTION', 3),
+('THEO 4', 'LIVING LIKE JESUS', 3);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
