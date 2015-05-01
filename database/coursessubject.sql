@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `coursessubject`
 --
-
+CREATE DATABASE `coursessubject` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `coursessubject`;
 -- --------------------------------------------------------
 
 --
@@ -126,7 +127,7 @@ INSERT INTO `2ndyearscis1stsem` (`courseNo`, `descriptiveTitle`, `totalUnits`) V
 ('P E 3', 'INDIVIDUAL/DUAL SPORTS/GAMES', 2),
 ('PHILOS 2', 'ETHICS', 3),
 ('SOCIO 1', 'SOCIETY AND CULTURE WITH FAMILY PLANNING', 3),
-('THEO 3', 'DISCIPLESHIP IN COMMUNITY', 3),;
+('THEO 3', 'DISCIPLESHIP IN COMMUNITY', 3);
 
 -- --------------------------------------------------------
 
