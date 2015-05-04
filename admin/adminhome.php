@@ -26,7 +26,7 @@
 			<li id="sched"><a href="adminschedule.html">
 				<img src="img/schedule.jpg" alt="Schedule" style="width:200px;height:200px;">Manage Schedule</a></li>
 				
-		 <li id="studList"><a href="adminstudents.html">
+		 <li id="studList"><a href="studentList.php">
 				<img src="img/students.jpg" alt="StudentsList" style="width:200px;height:200px;">Students List</a></li>
 		</div>
             <div id="ex"></div>
