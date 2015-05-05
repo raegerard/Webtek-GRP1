@@ -63,20 +63,105 @@ body{
     margin-top: 1in;
 }
 
+#divSchedule{
+  position: absolute;
+  top: 389px;
+  left: 332px;
+}
+
 .image{
     padding:20px;
     margin: auto;
     text-align: center;
-    width:270px;
+    width:220px;
     
 }
 
-#tablenotification tr,#tablenotification td,#tableblock tr,#tableblock td, #tableInternational tr,#tableInternational td{
+#lblenroll{
+  position: absolute;
+  left: 167px;
+  top: 115px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 2px 4px white;
+  background: rgb(202, 195, 161);
+}
+
+#lblnotification{
+  position: absolute;
+  left: 661px;
+  top: 115px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 2px 4px white;
+  background: rgb(202, 195, 161);
+}
+
+#lblchecklist{
+    
+  position: absolute;
+  left: 945px;
+  top: 115px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 2px 4px white;
+  background: rgb(202, 195, 161);
+}
+
+#lblschedule{
+  
+  position: absolute;
+  left: 414px;
+  top: 115px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 2px 4px white;
+  background: rgb(202, 195, 161);
+}
+
+/*tables*/
+#tableblock tr,#tblList tr, #tblChecklist tr,#tblChecklist td, #tblList td, #tableblock td, #tableInternational tr,#tableInternational td{
     border: solid 2px;
     border-color:black;
 }
 
-#tableblock table, #tablenotification table{
+#tblChecklist td{
+  border: solid 2px;
+  border-color: black;
+  margin: auto;
+  padding-left: 73px;
+  padding-right: 76px;
+}
+
+#tblSchedule td{
+  border: solid 2px;
+  border-color: black;
+  margin: auto;
+  padding-left: 26px;
+  padding-right: 21px;
+}
+
+#tblList td{
+  border: solid 2px;
+  border-color: black;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 21px;
+}
+
+#tblChecklist tbody, #tblSchedule tbody, #tblList tbody{
+  display: block;
+  height: 400px;
+  width: 700px;
+  overflow: auto;
+  border: solid;
+}
+
+#tblList, #tblList td, #tblList tr{
+    border:solid;
+}
+
+#tableblock table{
     border: solid 2px;
     border-color:black;
 
@@ -128,16 +213,14 @@ body{
 
 /*menu*/
 .menuhome{
+    width:52%;
     margin: auto;
-    POSITION: absolute;
-    left: 274px;
 }
 
 
 .menu{
     margin:auto;
-    position: absolute;
-    left: 152px;
+    width: 70%;
     
 }
 
@@ -212,3 +295,4 @@ list-style:none;
     width:100%;
     margin: auto;
 }
+
