@@ -1,35 +1,61 @@
-<?php
-	$databaseConnection = mysqli_connect('localhost', 'root', '', 'students')
-		or die('Error connecting to Server.');
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<title>STUDENT LIST</title>
+			<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1"/>
+			<link href="css/styles.css" type="text/css" rel="stylesheet" title="default" />
+		</head>
+		
+		<body>
 
-	$query = "SELECT * FROM student";
+			<?php include 'header.html'?>
+            <?php include 'menu.html'?>
 
-	$result = mysqli_query($databaseConnection, $query);
+            <div id = "banner">
+			<p>Hello, Admin!
+			<p>Date
+			</div>
 
-	echo "<table border='2px solid black'>
-		<tr>
-			<td>Name</td>
-			<td>Email</td>
-			<td>Contact Number</td>
-			<td>Gender</td>
-			<td>Course ID</td>
-			<td>Course Name</td>
-			<td>ID Number</td>
-		</tr>";
+            <div id="studList">
 
-	while($row = mysqli_fetch_array($result)) {
-		echo "<tr>";
-		echo "<td>".$row['lastName'].", ".$row['firstName'].", ".$row['middleName']."</td>";
-		echo "<td>".$row['email']."</td>";
-		echo "<td>".$row['contactNumber']."</td>";
-		echo "<td>".$row['gender']."</td>";
-		echo "<td>".$row['courseId']."</td>";
-		echo "<td>".$row['courseName']."</td>";
-		echo "<td>".$row['idNumber']."</td>";
-		echo "</tr>";
-	}
+			<?php
+				$databaseConnection = mysqli_connect('localhost', 'root', '', 'students')
+					or die('Error connecting to Server.');
 
-	echo "</table>";
+				$query = "SELECT * FROM student";
 
-	mysqli_close($databaseConnection);
-?>
+				$result = mysqli_query($databaseConnection, $query);
+
+				echo "<table border='2px solid black'>
+					<tr>
+						<td>Name</td>
+						<td>Email</td>
+						<td>Contact Number</td>
+						<td>Gender</td>
+						<td>Course ID</td>
+						<td>Course Name</td>
+						<td>ID Number</td>
+					</tr>";
+
+				while($row = mysqli_fetch_array($result)) {
+					echo "<tr>";
+					echo "<td>".$row['lastName'].", ".$row['firstName'].", ".$row['middleName']."</td>";
+					echo "<td>".$row['email']."</td>";
+					echo "<td>".$row['contactNumber']."</td>";
+					echo "<td>".$row['gender']."</td>";
+					echo "<td>".$row['courseId']."</td>";
+					echo "<td>".$row['courseName']."</td>";
+					echo "<td>".$row['idNumber']."</td>";
+					echo "</tr>";
+				}
+
+				echo "</table>";
+
+				mysqli_close($databaseConnection);
+			?>
+
+			</div>
+
+			<?php include 'footer.html'?>
+		</body>
+	</html>

@@ -32,7 +32,7 @@
         margin-top: 2in;
 }
 li {
-	display: inline-block;
+	display: inline;
 
 }
 
@@ -137,5 +137,13 @@ footer {
 }
 #footer a:hover {
   color: #f2b634;
+
+}
+
+#studList {
+  position: relative;
+  top: 100px;
+  left: 270px;
+
 
 }
