@@ -32,7 +32,7 @@
         margin-top: 2in;
 }
 li {
-	display: inline;
+	display: inline-block;
 
 }
 
@@ -140,7 +140,7 @@ footer {
 
 }
 
-#studList {
+#studentList {
   position: relative;
   top: 100px;
   left: 270px;

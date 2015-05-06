@@ -18,9 +18,6 @@
                 <div id="ex1"></div>
 		<div class="menumain">
 		
-			<li id="enroll"><a href="adminenrollment.html">
-				<img src="img/enroll.png" alt="Enroll" style="width:200px;height:200px;">Approve Enrollment</a></li>
-			
 			<li id="course"><a href="admincourse.html">
 				<img src="img/course.png" alt="Course" style="width:200px;height:200px;">Manage Subjects</a></li>
 			<li id="sched"><a href="adminschedule.html">

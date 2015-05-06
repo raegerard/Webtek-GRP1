@@ -16,7 +16,7 @@
 			<p>Date
 			</div>
 
-            <div id="studList">
+            <div id="studentList">
 
 			<?php
 				$databaseConnection = mysqli_connect('localhost', 'root', '', 'students')
