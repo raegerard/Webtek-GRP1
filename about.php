@@ -24,10 +24,12 @@
 			</div>
         
             <div id="content">
+            <p><a href="geolocation">SLU map</a></p>
 
 		<div class="divcontent">
                     
-                </div>
+        </div>
+        
             </div>
             </div>
                <footer class="mainfooter">
