@@ -1,4 +1,23 @@
+<%@page contentType="text/html" pageEncoding="UTF-8" errorPage="error.jsp"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 
+<sql:setDataSource driver="${applicationScope.dbdriver}"
+                   url="${applicationScope.connstr}"/>
+
+<c:set var="chooseSubjects" value="0"/>
+
+<c:if test="${param.start != null}">
+    <c:set var="chooseSubjects" value="${param.start}"/>
+</c:if>
+
+<sql:query var="subjects" startRow="${chooseSubjects}">
+    SELECT  Class Code, Course No., Descriptive Title, Units, Time, Days, Room 
+    FROM 1st year 1st sem block-1
+    ORDER BY Class Code
+</sql:query>
+
+<!DOCTYPE html>
 <html><!--Chin, Maria-->
     
     <link href="css/style1.css" rel="stylesheet" type="text/css"/>
