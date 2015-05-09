@@ -15,6 +15,7 @@
 					<p>Date
 				</div>
 
+				<div id = "studentList">
 
 				<form id="searching" method="GET">
 				<label>search
@@ -52,8 +53,10 @@
 				};
 
 				</script>
+
 				</div>
 
-				<?php include 'footer.html'?>
+			<?php include 'footer.html'?>
+
 		</body>
 </html>

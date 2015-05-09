@@ -116,6 +116,23 @@ display: inline;
 list-style:none;
 }
 
+#studentList {
+  position: relative;
+  left: 150px;
+  top: 110px;
+  
+}
+
+#addStudent {
+  position: relative;
+  top: 110px;
+  text-align: center;
+}
+
+#addStudent input {
+  text-align: left;
+}
+
 /*footer*/
 footer {
     background: #922c2c;
@@ -125,7 +142,7 @@ footer {
     color:white;
     text-decoration: none;
     text-align: center;
-    font-size: 110%;
+    font-size: 100%;
 }
 #footer a:link {
   color: white;

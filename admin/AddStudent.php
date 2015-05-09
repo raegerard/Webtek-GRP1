@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1"/>
@@ -14,17 +14,16 @@
 
 		<form id = "addStudent">
 			ID Number:
-			<p><input type="text" name="idno"><br></p>
+			<input type="text" name="idno"><br>
 			Last Name:
-			<p><input type="text" name="lname"><br></p>
+			<input type="text" name="lname"><br>
 			First Name:
-			<p><input type="text" name="fname"><br></p>
+			<input type="text" name="fname"><br>
 			Course:
-			<p><input type="text" name="course"><br></p>
+			<input type="text" name="course"><br>
 			Year:
-			<p><input type="text" name="yr"><br></p>
-
-			<p><input type="submit" value="Save"></p>
+			<input type="text" name="yr"><br>
+			<input type="submit" value="Save">
 		</form>
 
 		<?php include 'footer.html'?>
