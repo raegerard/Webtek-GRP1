@@ -24,7 +24,7 @@
 			</div>
         
             <div id="content">
-            <p><a href="geolocation">SLU map</a></p>
+            <p><a href="geolocation.php">SLU map</a></p>
 
 		<div class="divcontent">
                     
