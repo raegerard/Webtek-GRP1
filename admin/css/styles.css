@@ -4,12 +4,25 @@
     right:13px;
 }
 .mainheader{
-    background: url("../img/banner1.jpg");
+    background: url("../img/banner2.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    height: 300px;
+    height: 105px;
 }
 
+.mainheader a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.mainheader a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.mainheader a:hover{
+  color: #f2b634;
+}
 #banner {
         
   width: 400px;
@@ -27,7 +40,7 @@
 .menumain {
 	text-align: center;
 	position: relative;
-	top: 5px;
+	top: 0px;
         margin-bottom: 4in;
         margin-top: 2in;
 }
