@@ -34,6 +34,9 @@
             <div id="content">
                 <div id="divcontent">
                     <form name="blockform" id="blockform">
+                     <label>Semester:</label>
+                        <select name="semester" id="semester"></select>
+                    
                     <p id="chooseblock">Choose block: <select name="selectBlock" id="selectBlock"></p>
                         
                     </select><br>
