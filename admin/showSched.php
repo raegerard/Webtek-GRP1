@@ -3,18 +3,14 @@
 		<head>
 				<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1"/>
 		    	<link href="css/styles.css" type="text/css" rel="stylesheet" title="default" />
-		    	<title>Student List</title>
+		    	<title>Manage Schedule</title>
 		</head>
 
 		<body>
 			<?php include 'header.html'?>
             <?php include 'menu.html'?>
-				
-				<div id = "banner">
-					<p>Hello, Admin!
-					<p>Date
-				</div>
-
+            <?php include 'footer.html'?>
+            	<div id="showSched">
 
 				<?php
 					$databaseConnection = mysqli_connect('localhost', 'root', '', 'temp_sched')
@@ -48,8 +44,8 @@
 
 						mysqli_close($databaseConnection);
 				?>
+				</div>
 
-				<?php include 'footer.html'?>
 
 		</body>
 </html>

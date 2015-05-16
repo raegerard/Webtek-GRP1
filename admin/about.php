@@ -10,18 +10,14 @@
 	</head>
         
 	<body>
-            <div id="maincontent">
-                <div id = "banner">
-					<p>Hello, Admin!
-					<p>Date
-				</div>
 
             	<?php include 'header.html'?>
             	<?php include 'menu.html'?>
         
 	            <div id="content">
 
-	            	<p><a href="geolocation.php">SLU Map</a></p>
+	            	<a href="geolocation.php">
+	            	<img src="img/location.png" alt="loc" style="width:200px;height:200px;">SLU MAP</a>
 					<div class="divcontent">
 	                    
 	            	</div>

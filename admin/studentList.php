@@ -9,11 +9,7 @@
 		<body>
 			<?php include 'header.html'?>
             <?php include 'menu.html'?>
-				
-				<div id = "banner">
-					<p>Hello, Admin!
-					<p>Date
-				</div>
+            <?php include 'footer.html'?>
 
 				<div id = "studentList">
 
@@ -55,8 +51,6 @@
 				</script>
 
 				</div>
-
-			<?php include 'footer.html'?>
 
 		</body>
 </html>

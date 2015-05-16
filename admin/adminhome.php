@@ -21,9 +21,9 @@
 			<li id="addStud"><a href="AddStudent.php">
 				<img src="img/addStud.png" alt="AddStud" style="width:200px;height:200px;">Add Student</a></li>
 
-			<li id="course"><a href="admincourse.html">
+			<li id="course"><a href="manageSubjects.php">
 				<img src="img/course.png" alt="Course" style="width:200px;height:200px;">Manage Subjects</a></li>
-			<li id="sched"><a href="adminschedule.html">
+			<li id="sched"><a href="showSched.php">
 				<img src="img/schedule.jpg" alt="Schedule" style="width:200px;height:200px;">Manage Schedule</a></li>
 				
 		 <li id="studList"><a href="studentList.php">
