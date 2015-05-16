@@ -1,5 +1,5 @@
 /*
-Author: Arianne Garcie, Maria Helena Chin
+Author: Arianne Garcia, Maria Helena Chin
 Student style
 */
 /* 
@@ -298,5 +298,20 @@ list-style:none;
 
 #semester{
     width: 200px;
+}
+
+/*smaller*/
+@media only screen and (min-width: 160px)and (max-width: 600px){
+    
+    
+    
+}
+
+/*mobile*/
+@media only screen and (min-width: 160px) and (max-width:480px){
+    
+    
+    
+    
 }
 
