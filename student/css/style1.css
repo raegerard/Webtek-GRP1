@@ -219,8 +219,10 @@ body{
 
 
 .menu{
-    margin:auto;
-    width: 70%;
+margin: auto;
+width: 100%;
+position: absolute;
+left: 154px;
     
 }
 
