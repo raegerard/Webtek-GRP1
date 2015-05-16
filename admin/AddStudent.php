@@ -13,17 +13,17 @@
         <?php include 'menu.html'?>
 
 		<form id = "addStudent">
-			ID Number:
+			<label id="studentIDno">ID Number:</label>
 			<input type="text" name="idno"><br>
-			Last Name:
-			<input type="text" name="lname"><br>
-			First Name:
-			<input type="text" name="fname"><br>
-			Course:
-			<input type="text" name="course"><br>
-			Year:
-			<input type="text" name="yr"><br>
-			<input type="submit" value="Save">
+	                    <label id="studentLname">Last Name:</label>
+				<input type="text" name="lname"><br>
+	                    <label id="studentFname">First Name:</label>
+				<input type="text" name="fname"><br>
+	                    <label id="studentCourse">Course:</label>
+				<input type="text" name="course"><br>
+	                    <label id="studentYear">Year:</label>
+				<input type="text" name="yr"><br>
+				<input type="submit" value="Save">
 		</form>
 
 		<?php include 'footer.html'?>
