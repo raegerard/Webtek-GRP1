@@ -23,11 +23,12 @@
 
 			<li id="course"><a href="manageSubjects.php">
 				<img src="img/course.png" alt="Course" style="width:200px;height:200px;">Manage Subjects</a></li>
-			<li id="sched"><a href="showSched.php">
-				<img src="img/schedule.jpg" alt="Schedule" style="width:200px;height:200px;">Manage Schedule</a></li>
 				
-		 <li id="studList"><a href="studentList.php">
+		 	<li id="studList"><a href="studentList.php">
 				<img src="img/students.jpg" alt="StudentsList" style="width:200px;height:200px;">Students List</a></li>
+
+			<li id="sched"><a href="../index.php">
+				<img src="img/logout.png" alt="Schedule" style="width:200px;height:200px;">Log Out</a></li>
 		</div>
             <div id="ex"></div>
                 <?php include 'footer.html'?>
