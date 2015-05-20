@@ -1,4 +1,3 @@
-
 <html>
 		<head>
 				<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1"/>
@@ -9,48 +8,42 @@
 		<body>
 			<?php include 'header.html'?>
             <?php include 'menu.html'?>
-            <?php include 'footer.html'?>
+            
 
-				<div id = "studentList">
+	
+<?php
+	$databaseConnection = mysqli_connect('localhost', 'root', '', 'school')
+		or die('Error connecting to Server.');
 
-				<form id="searching" method="GET">
-				<label>search
-				<input type="text" name="keywords" autocomplete="off"></label>
-				<input type="submit" value="Search">
+	$query = "SELECT * FROM student";
 
-				<?php
-					$databaseConnection = mysqli_connect('localhost', 'root', '', 'school')
-						or die('Error connecting to Server.');
+	$result = mysqli_query($databaseConnection, $query);
+        echo "<h2 id='sListTitle'>List of Currently Enrolled Students</h2>";
+        echo "<div id=admincontent>";
+	echo "<table id='tableSList'border='2px solid black'>
+		<tr>
+			<td>Name</td>
+			<td>Course Name</td>
+		
+			<td></td>
+		</tr>";
 
-					$query = "SELECT * FROM student";
-
-					$result = mysqli_query($databaseConnection, $query);
-					echo "<table border='2px solid black'>
-						<tr>
-							<td>Name</td>
-							<td>Course Name</td>
-							<td>ID Number</td>
-						</tr>";
-
-					while($row = mysqli_fetch_array($result)) {
-						echo "<tr>";
-						echo "<td>".$row['lastName'].", ".$row['firstName']." ".$row['middleName']."</td>";
-						echo "<td>".$row['course']."</td>";
-						echo "<td>".$row['idNumber']."</td>";
-						echo "</tr>";
-					}
-
-					echo "</table>";
-
-					mysqli_close($databaseConnection);
-				?>
-				<script>var searching = {
-				  valueNames: [ 'firstName', 'lastName' ]
-				};
-
-				</script>
-
-				</div>
-
-		</body>
-</html>
+	while($row = mysqli_fetch_array($result)) {
+		echo "<tr>";
+		echo "<td>".$row['lastName'].", ".$row['firstName']." ".$row['middleName']."</td>";
+		echo "<td>".$row['course']."</td>";
+		$idnumber=$row['idNumber'];
+		
+		echo "<td><a href='showSched.php?idnumber=".$idnumber."'>View Schedule</a></td>";
+		echo "<td><a href='studentInfo.php?idnumber=".$idnumber."'>View student info</a></td>";
+		echo "</tr>";
+                echo "</div>";
+	}
+?>
+                    
+                    
+                    
+	</body>
+        
+        <?php include 'footer.html'?>
+		</html>

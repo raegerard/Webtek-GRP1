@@ -29,6 +29,18 @@
         <label for="emailAddress">Email Address:</label>
         <input type="text" name="email">
     </p>
+	 <p>
+        <label for="year">Year:</label>
+        <input type="text" name="year">
+    </p>
+	 <p>
+        <label for="course">Course:</label>
+        <input type="text" name="course">
+    </p>
+	<p>
+        <label for="password">Password:</label>
+        <input type="text" name="password">
+    </p>
     <input type="submit" name="add" value="Add Records">
 </form>
 </body>
@@ -47,8 +59,11 @@ $middleName = mysqli_real_escape_string($link, $_POST['middleName']);
 $contactNumber = mysqli_real_escape_string($link, $_POST['contactNumber']);
 $address = mysqli_real_escape_string($link, $_POST['address']);
 $email = mysqli_real_escape_string($link, $_POST['email']);
+$year = mysqli_real_escape_string($link, $_POST['year']);
+$course = mysqli_real_escape_string($link, $_POST['course']);
+$password = mysqli_real_escape_string($link, $_POST['password']);
 
-$sql = "INSERT INTO student (firstName, lastName, middleName, contactNumber, address, email) VALUES ('$firstName', '$lastName', '$middleName', '$contactNumber', '$address', '$email')";
+$sql = "INSERT INTO student (firstName, lastName, middleName, contactNumber, address, email, year, course, password) VALUES ('$firstName', '$lastName', '$middleName', '$contactNumber', '$address', '$email', '$year', '$course','$password')";
 if(mysqli_query($link, $sql)){
     echo "Records added successfully.";
 } else{

@@ -140,7 +140,7 @@ if($check_user>0){
 
 $_SESSION['email']=$email;
 
-echo "<script>window.open('admin/adminhome.php')</script>";
+echo "<script>open('admin/adminhome.php')</script>";
 }
 
 else {
@@ -172,25 +172,30 @@ echo "MySQLi Connection was not established: " . mysqli_connect_error();
 if(isset($_POST['stdlogin'])){
 
 $idnumber = mysqli_real_escape_string($con,$_POST['idnumber']);
-
+$firstname = mysqli_real_escape_string($con,$_POST['firstname']);
+$lastname = mysqli_real_escape_string($con,$_POST['lastname']);
 $pass = mysqli_real_escape_string($con,$_POST['pass']);
 
 $sel_user = "select * from student where idNumber='$idnumber' AND password='$pass'";
+$firstname = $sel_user['firstName'];
+$lastname = $sel_user['lastName'];
 
 $run_user = mysqli_query($con, $sel_user);
 
+
 $check_user = mysqli_num_rows($run_user);
+
 
 if($check_user>0){
 
-$_SESSION['email']=$email;
 
-echo "<script>window.open('student/studenthome.php')</script>";
+
+echo "<script>window.open('http://localhost:8080/webtek/redirect.jsp?id=$idnumber&firstname=$firstname&lastname=$lastname')</script>";
 }
 
 else {
 
-echo "<script>alert('Email or password is not correct, try again!')</script>";
+echo "<script>alert('Id number or password is not correct, try again!')</script>";
 
 }
 
