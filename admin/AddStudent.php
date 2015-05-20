@@ -25,7 +25,7 @@
 			<input type="text" name="course" id="inputCourse"><br>
                     <label id="studentYear">Year:</label>
 			<input type="text" name="yr" id="inputYear"><br>
-			<input type="submit" value="Save">
+			<input type="submit" value="Save" id="sve">
 		</form>
 
 		<?php include 'footer.html'?>
