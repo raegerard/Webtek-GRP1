@@ -1,3 +1,7 @@
+/*Author: Brioso, Magsombol, Chin
+* Admin style sheet
+*/
+
 /*header*/
 #logout{
     position:absolute;
@@ -64,23 +68,9 @@ li {
 
 /*menu*/
 .menu{
-    margin: auto;
-    position: absolute;
-    left: 165px;
-
-}
-#content {
-  position: relative;
-  margin-top: 90px;
-  text-align: center;
-}
-
-#content a:link, a:visited{
-  color: black;
-  text-decoration: none;
-}
-#content a:hover{
-  color: #4585C5;
+  margin: auto;
+  position: absolute;
+  left: 182px;
 }
 
 #crumbs ul li a {
@@ -100,8 +90,8 @@ li {
 
 #crumbs ul li a:after {
 	content: "";  
-	border-top: 40px solid transparent;
-        border-bottom: 40px solid transparent;
+	border-top: 32px solid transparent;
+        border-bottom: 28px solid transparent;
         border-left: 40px solid #f2b634;
 	position: absolute; right: -40px; top: 0;
         z-index: 1;
@@ -109,8 +99,8 @@ li {
 
 #crumbs ul li a:before {
 	content: "";  
-	border-top: 40px solid transparent;
-	border-bottom: 40px solid transparent;
+	border-top: 32px solid transparent;
+	border-bottom: 28px solid transparent;
 	border-left: 40px solid white;
 	position: absolute; left: 0; top: 0;
 }
@@ -165,71 +155,6 @@ list-style:none;
   text-align: left;
 }
 
-#addSubj {
-  position: relative;
-  top: 110px;
-  text-align: center;
-}
-
-#addSubj input {
-  text-align: left;
-}
-
-form{
-background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
-background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-margin: auto;
-position:relative;
-width:550px;
-height:550px;
-font-family: Tahoma, Geneva, sans-serif;
-font-size: 14px;
-line-height: 24px;
-font-weight: bold;
-color: #09C;
-text-decoration: none;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-padding:10px;
-border: 1px solid #999;
-border: inset 1px solid #333;
--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-}
-
-input    {
-width:375px;
-display:block;
-border: 2px solid #999;
-height: 25px;
--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-}
-
-input#sve {
-width:100px;
-position:absolute;
-right:20px;
-bottom:20px;
-background:#09C;
-color:#fff;
-font-family: Tahoma, Geneva, sans-serif;
-height:30px;
--webkit-border-radius: 15px;
--moz-border-radius: 15px;
-border-radius: 15px;
-border: 1p solid #999;
-text-align: center;
-}
-
-label{
-  text-align: left;
-}
-
-
 /*footer*/
 footer {
     background: #4585C5;
@@ -252,4 +177,179 @@ footer {
 #footer a:hover {
   color: #f2b634;
 
+}
+
+#tableSList{
+  position: absolute;
+  left: 400px;
+  top: 279px;
+}
+
+#admincontent{
+    margin-bottom: 2in;
+}
+
+#sListTitle{
+  position: absolute;
+  top: 200px;
+  left: 272px;
+}
+
+/*form Add Student*/
+
+#LastName{
+  position: absolute;
+  left: 380px;
+  top: 32px;
+}
+
+#firstName{
+  position: absolute;
+  left: 380px;
+  top: 4px;
+}
+
+#MiddleName{
+  position: absolute;
+  left: 700px;
+  top: 4px;
+}
+
+#Address{
+  position: absolute;
+  left: 380px;
+  top: 104px;
+}
+
+#email{
+  position: absolute;
+  left: 700px;
+  top: 75px;
+}
+
+#ContactNo{
+  position: absolute;
+  left: 380px;
+  top: 75px;
+}
+
+#year{
+  position: absolute;
+  left: 380px;
+  top: 143px;
+}
+
+#course{
+  position: absolute;
+  left: 380px;
+  top: 170px;
+}
+
+#password{
+  position: absolute;
+  left: 380px;
+  top: 197px;
+}
+
+#hr1{
+  width: 700px;
+  position: absolute;
+  top: 53px;
+  left: 341px;
+}
+
+#hr2{
+  width: 700px;
+  position: absolute;
+  top: 121px;
+  left: 341px;
+}
+
+#hr3{
+  width: 700px;
+  position: absolute;
+  top: 217px;
+  left: 341px;
+}
+#txtLname{
+  position: absolute;
+  left: 495px;
+  top: 27px;
+}
+
+#txtfname{
+  position: absolute;
+  left: 495px;
+}
+
+#txtMidName{
+  position: absolute;
+  left: 834px;
+}
+
+#txtEmail{
+  position: absolute;
+  left: 834px;
+  top: 71px;
+}
+
+#txtYear{
+  position: absolute;
+  left: 495px;
+  top: 139px;
+}
+#txtcontact{
+  position: absolute;
+  left: 495px;
+  top: 71px;
+}
+
+#txtCourse{
+  position: absolute;
+  left: 495px;
+  top: 167px;
+}
+
+#txtPass{
+  position: absolute;
+  left: 495px;
+  top: 195px;
+}
+
+#txtAddress{
+  position: absolute;
+  left: 495px;
+  top: 99px;
+  width: 507px;
+}
+
+#btnAddRecords{
+  position: absolute;
+  top: 239px;
+  left: 341px;
+}
+
+/*end*/
+#formAddStudentTitle{
+  position: absolute;
+  left: 300px;
+  top: 184px;
+}
+
+#tblShowSched{
+  position: absolute;
+  top: 242px;
+  left: 299px;
+}
+
+#schedTitle{
+  position: absolute;
+  left: 267px;
+  top: 186px;
+}
+
+#contentStudentInfo{
+  position: absolute;
+  left: 400px;
+  top: 236px;
 }
