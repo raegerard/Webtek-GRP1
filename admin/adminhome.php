@@ -18,16 +18,16 @@
 			<li id="enroll"><a href="approve.php">
 
 
-			<li id="addStud"><a href="AddStudent.php">
-				<img src="img/addStud.png" alt="AddStud" style="width:200px;height:200px;">Add Student</a></li>
+			<li id="addStud" ><a href="AddStudent.php">
+				<img class="thumb"src="img/addStud.png" alt="AddStud" >Add Student</a></li>
 
-			<li id="course"><a href="manageSubjects.php">
-				<img src="img/course.png" alt="Course" style="width:200px;height:200px;">Manage Subjects</a></li>
-			<li id="sched"><a href="showSched.php">
-                                <img src="img/course.png" alt="Schedule" style="width:200px;height:200px;">Manage Schedule</a></li>
+			<li id="course" ><a href="manageSubjects.php">
+				<img class="thumb"src="img/course.png" alt="Course" >Manage Subjects</a></li>
+			<li id="sched" ><a href="showSched.php">
+                                <img class="thumb"src="img/course.png" alt="Schedule" >Manage Schedule</a></li>
 				
-		 <li id="studList"><a href="studentList.php">
-				<img src="img/students.jpg" alt="StudentsList" style="width:200px;height:200px;">Students List</a></li>
+		 <li id="studList" ><a href="studentList.php">
+				<img class="thumb"src="img/students.jpg" alt="StudentsList" >Students List</a></li>
 		</div>
             <div id="ex"></div>
                 <?php include 'footer.html'?>
