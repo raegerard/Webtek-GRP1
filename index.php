@@ -65,9 +65,18 @@
      
  </script>
  <body>
-     <?php include 'admin/header.html'?>
+     <header class="mainheader">
+				<div id="header">
+				</div>
+    		</header>
      <div id="menubar">
-       <?php include 'admin/menu.html'?>
+       <div id="crumbs" class="menuhome">
+				<ul>
+					<li><a href="index.php">Home</a></li>
+			        <li><a href="about.php">About Us</a></li>
+					<li class="active"><a href="contact.php">Contact Us</a></li>
+				</ul>
+			</div>
      </div>
      
      <div id="divindex">
