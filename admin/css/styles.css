@@ -353,3 +353,34 @@ footer {
   left: 400px;
   top: 236px;
 }
+
+.thumb{
+    width: 200px;
+    height: 200px;
+}
+
+/*smaller*/
+@media only screen and (min-width: 150px)and (max-width: 600px){
+    body{
+        width: 100%;
+        font-size: 95%;
+        background:white;
+        color:black;
+    }
+    
+    .menu nav{
+    position:absolute;
+    }
+    .menu nav ul{
+    padding-left: 0;
+    }
+    .menu nav ul li{
+    width: 100%;
+    text-align:center;
+    }
+    
+    .thumb{
+        width: 150px;
+        height: 150px;
+    }
+}
