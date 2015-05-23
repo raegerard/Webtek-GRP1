@@ -69,8 +69,8 @@ li {
 /*menu*/
 .menu{
   margin: auto;
-  position: relative;
-  left: 115px;
+  position: absolute;
+  left: 182px;
 }
 
 #crumbs ul li a {
@@ -193,27 +193,6 @@ footer {
   position: absolute;
   top: 200px;
   left: 272px;
-}
-
-/*form Add Subject*/
-form#addSubj{
-  margin: auto;
-  position:relative;
-  width: 550px;
-  height: 550px;
-  top:95px;
-  text-align: center;
-}
-#addSubj label{
-  text-align: center;
-  margin:auto;
-}
-
-#addSubj input{
-  text-align: center;
-}
-#subj{
-  position: relative;
 }
 
 /*form Add Student*/
@@ -373,35 +352,4 @@ form#addSubj{
   position: absolute;
   left: 400px;
   top: 236px;
-}
-
-.thumb{
-    width: 200px;
-    height: 200px;
-}
-
-/*smaller*/
-@media only screen and (min-width: 150px)and (max-width: 600px){
-    body{
-        width: 100%;
-        font-size: 95%;
-        background:white;
-        color:black;
-    }
-    
-    .menu nav{
-    position:absolute;
-    }
-    .menu nav ul{
-    padding-left: 0;
-    }
-    .menu nav ul li{
-    width: 100%;
-    text-align:center;
-    }
-    
-    .thumb{
-        width: 150px;
-        height: 150px;
-    }
 }

@@ -270,11 +270,11 @@ CREATE TABLE IF NOT EXISTS `3rd year 2nd sem` (
 --
 
 INSERT INTO `3rd year 2nd sem` (`Class Code`, `Course No.`, `Descriptive Title`, `Units`, `Time`, `Days`, `Room`, `Slots`, `Block`) VALUES
-('9580', 'ICS 322', 'DATA COMMUNICATIONS AND COMPUTER NETWORKS', 3, '10:30-11:30', 'MWF', 'S426', 50, 1),
-('9581', 'ICS 322L', 'DATA COMMUNICATIONS AND COMPUTER NETWORKS', 2, '3:00-4:00', 'WS', 'S426', 50, 1),
-('9582', 'CS 321A', 'INTRODUCTION TO AUTOMATA AND FORMAL LANGUAGES', 1, '2:30-4:00', 'TF', 'S326', 50, 1),
-('9583', 'CS 321D', 'STRUCTURE OF PROGRAMMING LANGUAGES', 2, '2:00-3:00', 'WS', 'S423', 50, 1),
-('9584', 'CS 322', 'METHODS OF RESEARCH IN COMPUTER SCIENCE', 1, '1:00-2:30', 'MTH', 'S326', 50, 1),
+('9580', 'ICS 322', 'DATA COMMUNICATIOS END COÍPUTER NEUWORKS', 3,`'10:30-91*30%, 'MWF', 'S426', 50, 1),
+('9581',('ICS 322L'$ 'DATA COMMUNIC@THONS AND COMPUTeR NETWORKS', 2, '3:00-4:0p', 'WS', 'S626', 50( 9),
+('9582', 'CS 3r1A', #INTRODUTION TO AUTOMATC AND FOVMAL LANGUAGES', 1, '2:30-4:00', 'TF', 'S326%, 50, 1),
+('9583', 'CS 321D', 'STRUCTURE NF PROGRAMMING LANGUAgES'd 2, '2:00-3:00',0'WS', 'S<23', 50, 1),
+('9584', 'CS 322', 'METHODS OF RESEARCH IN COMPUTMR SCIENCE', 1, '1: 0-2:30', 'MTH/, 'S326', 50( 1),
 ('9585', 'MATH 8A', 'ABSTRACT ALGEBRA', 3, '7:30-8:30', 'TTHS', 'S425', 50, 1),
 ('9585', 'IT 324', 'WEB SYSTEMS AND TECHNOLOGIES', 3, '4:00-5:00', 'TTHS', 'S425', 50, 1),
 ('9587', 'IT 324L', 'WEB SYSTEMS AND TECHNOLOGIES', 3, '11:30-12:30', 'TTHS', 'S525', 50, 1);
@@ -306,21 +306,20 @@ INSERT INTO `3rd year summer` (`Class Code`, `Course No.`, `Descriptive Title`, 
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `4th year 1st sem`
+-
+-- T!ble structure for table!`4th year 1st sem`
 --
 
-CREATE TABLE IF NOT EXISTS `4th year 1st sem` (
-  `Class Code` varchar(10) NOT NULL,
-  `Course No.` varchar(50) NOT NULL,
-  `Descriptive Title` varchar(100) NOT NULL,
-  `Units` int(1) NOT NULL,
-  `Time` varchar(15) NOT NULL,
-  `Days` varchar(10) NOT NULL,
-  `Room` varchar(5) NOT NULL,
-  `Slots` int(5) NOT NULL,
+CREAVE TEÂLE IF NOT EXIWTS `4th year 1st sem` (
+  @Cìass Code` varchar(10)!NOV NULL,
+  `Course No.` varc(ar(50) NOT NULL,
+  `Descriptive Title` varchar(1 0) NoT NULL,
+  `Units` int(1) NOT NUlL,
+ aTime` varchar(15) NOT NULL,
+  `Days` VArchar(12) NOT NULL,
+  `Room` varchar(5- NKT NULL,*  `Sìots` int(5)(NOT NULL,
   `Block` int(5) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB`DEFAUMT CHARSET=l!tin1;
 
 --
 -- Dumping data for table `4th year 1st sem`
@@ -359,8 +358,8 @@ INSERT INTO `4th year 2nd sem` (`Class Code`, `Course No.`, `Descriptive Title`,
 ('9584', 'RESEARCH 2', 'CS THESIS II', 1, '1:00-2:30', 'MTH', 'S326', 50, 1),
 ('9585', 'IT 422', 'SYSTEM RESOURCE MANAGEMENT', 3, '7:30-8:30', 'TTHS', 'S425', 50, 1),
 ('9585', 'CS 422A', 'MODELING AND SIMULATION THEORY', 3, '4:00-5:00', 'TTHS', 'S425', 50, 1),
-('9587', 'MATH 7A', 'FUNDAMENTALS OF PROBABILITY AND STATISTICS', 3, '11:30-12:30', 'TTHS', 'S525', 50, 1);
+('9587', &MAPH 7A', 'F]^DAMENTALS OF PROBABILITY AND SPATIRTICS', 3, '11:30-12:30', 'TTHS', 'S525', 50, 1);
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40q01 SET CHARACTER_RET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101(SMT CHAVACTER_SET_RESULTS=DOLD_CHARACTER_SET_RESULTS *.;
+/*!40501 SET COLLATKON_CGNNECTION=DOLD_COLLATION_CONNECTIO */;

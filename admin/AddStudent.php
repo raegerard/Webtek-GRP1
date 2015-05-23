@@ -13,7 +13,6 @@
 
 		<?php include 'header.html'?>
         <?php include 'menu.html'?>
-        <?php include 'footer.html'?>
     <div id="divAddStudent">
         <h3 id="formAddStudentTitle">Add Student Information</h3>    
 		<form id = "addStudent" method="post">
@@ -98,4 +97,4 @@ if(mysqli_query($link, $sql)){
 mysqli_close($link);
 ?>
 
-		
+		<?php include 'footer.html'?>

@@ -37,10 +37,7 @@
         <label for="Room">Room:</label>
         <input type="text" name="room">
     </p>
-	 <p>
-        <label for="Slots">Slots:</label>
-        <input type="text" name="slots">
-    </p>
+
     <input type="submit" name="add" value="Add Subject">
 </form>
 </body>
@@ -60,9 +57,9 @@ $Units = mysqli_real_escape_string($link, $_POST['units']);
 $Time = mysqli_real_escape_string($link, $_POST['time']);
 $Days = mysqli_real_escape_string($link, $_POST['days']);
 $Room= mysqli_real_escape_string($link, $_POST['room']);
-$Slots= mysqli_real_escape_string($link, $_POST['slots']);
 
-$sql = "INSERT INTO addSubject (ClassCode, CourseNo, DescTitle, Units, Time, Days, Room, Slots) VALUES ('$ClassCode', '$CourseNo', '$DescTitle', '$Units', '$Time', '$Days', '$Room', '$Slots')";
+
+$sql = "INSERT INTO addedSubject (classCode, courseNo, courseDescription, units, time, days, room) VALUES ('$ClassCode', '$CourseNo', '$DescTitle', '$Units', '$Time', '$Days', '$Room')";
 if(mysqli_query($link, $sql)){
     echo "Subject was added successfully.";
 } else{
