@@ -1,43 +1,47 @@
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" title="default" />
 <title>Add Subject</title>
 </head>
 <body>
-<form method="post">
+        <?php include 'header.html'?>
+        <?php include 'menu.html'?>
+        <?php include 'footer.html'?>
+<form id="addSubj" method="post">
     <p>
-        <label for="ClassCode">Class Code:</label>
-        <input type="text" name="classcode" >
-    </p>
-    <p>
-        <label for="CourseNo">Course Number:</label>
-        <input type="text" name="courseno">
-    </p>
-	 <p>
-        <label for="DescTitle">Description:</label>
-        <input type="text" name="desc">
-    </p>
-	 <p>
-        <label for="Units">Units:</label>
-        <input type="text" name="units">
-    </p>
-	 <p>
-        <label for="Time">Time:</label>
-        <input type="text" name="time">
+        <label id="ClassCode" for="ClassCode">ClassCode:</label>
+        <input id="txtcode" type="text" name="classcode">
     </p>
     <p>
-        <label for="Days">Days:</label>
-        <input type="text" name="days">
+        <label id="CourseNo" for="CourseNo">Course Number:</label>
+        <input id="txtcrsno" type="text" name="courseno">
     </p>
 	 <p>
-        <label for="Room">Room:</label>
-        <input type="text" name="room">
+        <label id="DescTitle" for="DescTitle">Description:</label>
+        <input id="txtdtitle" type="text" name="desc">
     </p>
 	 <p>
-        <label for="Slots">Slots:</label>
-        <input type="text" name="slots">
+        <label id="Units" for="Units">Units:</label>
+        <input id="txtunts" type="text" name="units">
     </p>
-    <input type="submit" name="add" value="Add Subject">
+	 <p>
+        <label id="Time" for="Time">Time:</label>
+        <input id="txttime" type="text" name="time">
+    </p>
+    <p>
+        <label id="Days" for="Days">Days:</label>
+        <input id="txtdays" type="text" name="days">
+    </p>
+	 <p>
+        <label id="Room" for="Room">Room:</label>
+        <input id="txtrm" type="text" name="room">
+    </p>
+	 <p>
+        <label id="Slots" for="Slots">Slots:</label>
+        <input id="txtslts" type="text" name="slots">
+    </p>
+    <input id="btnaddsubj" type="submit" name="add" value="Add Subject">
 </form>
 </body>
 </html>   

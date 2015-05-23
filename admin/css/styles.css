@@ -69,8 +69,8 @@ li {
 /*menu*/
 .menu{
   margin: auto;
-  position: absolute;
-  left: 182px;
+  position: relative;
+  left: 115px;
 }
 
 #crumbs ul li a {
@@ -193,6 +193,27 @@ footer {
   position: absolute;
   top: 200px;
   left: 272px;
+}
+
+/*form Add Subject*/
+form#addSubj{
+  margin: auto;
+  position:relative;
+  width: 550px;
+  height: 550px;
+  top:95px;
+  text-align: center;
+}
+#addSubj label{
+  text-align: center;
+  margin:auto;
+}
+
+#addSubj input{
+  text-align: center;
+}
+#subj{
+  position: relative;
 }
 
 /*form Add Student*/
