@@ -11,10 +11,7 @@
         
 	<body>
             <div id="maincontent">
-                <div id = "banner">
-			<p>Hello, Admin!
-			<p>Date
-		</div>
+
             <?php include 'header.html'?>
             <?php include 'menu.html'?>
         
